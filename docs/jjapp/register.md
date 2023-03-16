@@ -96,3 +96,12 @@ touch start.sh stop.sh check.sh
 - `APP_RESTART_ERR` 微服务重启失败
 - `APP_KILL_ERR` 微服务强制停止失败
 - `APP_RUN_ERR` 微服务运行时异常
+
+### 自定义环境变量
+在微服务目录下新建`env.sh`, 并在`start.sh`中使用
+```bash
+$ . ./env.sh
+```
+即可在微服务中访问自定义的环境变量
+
+?>你也可以使用`fushin/env`提供的`dotenv`能力, 新建一个`.env`文件在微服务中自动加载环境变量

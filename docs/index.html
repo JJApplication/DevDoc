@@ -12,6 +12,34 @@
   .app-name-link img {
     max-width: 50%;
   }
+  /*样式覆写*/
+  .markdown-section h1 {
+    font-size: 2.5rem;
+  }
+  .markdown-section h1:hover:after {
+    content: "§ h1";
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin-left: 0.5rem;
+  }
+  .markdown-section h2:hover:after {
+    content: "§ h2";
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin-left: 0.5rem;
+  }
+  .markdown-section h3:hover:after {
+    content: "§ h3";
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin-left: 0.5rem;
+  }
+  .markdown-section h4:hover:after {
+    content: "§ h4";
+    font-size: 1rem;
+    color: #4f4f4f;
+    margin-left: 0.5rem;
+  }
 </style>
 <body>
   <div id="app">$ DEV Doc Initializing...</div>
@@ -20,14 +48,18 @@
       logo: '/media/logo.png',
       name: 'DevDoc',
       repo: '',
-      themeColor: '#9c1cdf',
+      themeColor: '#df1c7a',
       loadSidebar: true,
       subMaxLevel: 4,
-      maxLevel: 6,
+      maxLevel: 4,
       notFoundPage: '_404.md',
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-go.min.js"></script>
 </body>
 </html>
