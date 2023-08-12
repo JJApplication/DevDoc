@@ -1,6 +1,7 @@
 * [首页](/)
 * [指南](guide)
 * [JJApp](jjapp/)
+  * [设计初衷](jjapp/what)
   * [快速开始](jjapp/start)
   * [Octopus模型](jjapp/octopus)
   * [Fushin框架](jjapp/fushin)
@@ -16,5 +17,4 @@
   * [Sandwich中间层网关](jjapp/sandwich) 
 * [GeekFW](geekfw/)
   * [Niphotri](geekfw/niphotri)
-  * [Killer](geekfw/killer)
   * [iKun](geekfw/ikun)
