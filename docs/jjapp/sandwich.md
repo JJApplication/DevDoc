@@ -30,7 +30,7 @@
 
 **Sandwich**定义了一系列异常状态码，在请求超时，请求频率异常，代理后端异常时就会返回统一的错误页面
 
-![sandwich](../media/sandwich.jpg)
+![sandwich](./assets/sandwich.jpg)
 
 ## 运行时依赖
 

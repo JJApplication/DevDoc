@@ -18,7 +18,7 @@ Blog是一个个人博客项目，基于`markdown`依赖于强大的`marked`实�
 
 Blog分为前端`BlogNext`和后端`Blogo`，你可以通过下载源码轻松地编译和运行或者从**Release**获取最新的`blogo`后端程序
 
-![](../media/blog.jpg)
+![](./assets/blog.jpg)
 
 ## 安装Blogo
 

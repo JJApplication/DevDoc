@@ -4,7 +4,7 @@
 
 在微服务群组中承担网关**Service Mesh**的流量入口
 
-![img](../media/rainbow.png)
+![img](./assets/rainbow.png)
 
 ## 模块
 
